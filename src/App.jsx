@@ -1,5 +1,4 @@
 import "./App.css";
-import { NavLink, Outlet } from "react-router-dom";
 import { FaHome, FaLaptopCode } from "react-icons/fa";
 import { IoDocumentOutline, IoPersonSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
@@ -83,7 +82,6 @@ function App() {
         </div>
 
         <div className=" ml-[270px] ">
-
           <Element name="home" className="sec1">
             <Home></Home>
           </Element>

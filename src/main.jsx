@@ -8,16 +8,11 @@ import Skills from "./component/Skills.jsx";
 import Projects from "./component/Projects.jsx";
 import About from "./component/About.jsx";
 import Contact from "./component/Contact.jsx";
-import All from "./component/All.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
     children: [
-      {
-        path: "all",
-        element: <All></All>,
-      },
       {
         path: "home",
         element: <Home></Home>,
