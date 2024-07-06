@@ -67,7 +67,7 @@ const Contact = () => {
               />
             </label>
             <label className="block">
-              <span className="mb-1 font-semibold">Your Email Address</span>
+              <span className="mb-1 font-semibold">Your Email address</span>
               <input
                 type="email"
                 placeholder="leroy@jenkins.com"
@@ -91,6 +91,15 @@ const Contact = () => {
           </form>
         </div>
       </section>
+      <footer className="footer footer-center bg-gray-700 text-white p-4">
+        <aside>
+          <p>
+            Copyright © ${new Date().getFullYear()} - All rights reserved by Fatema Tuz Johora
+          </p>
+        </aside>
+      </footer>
+
+
     </div>
   );
 };
