@@ -2,13 +2,12 @@ import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
 const Contact = () => {
   return (
     <div>
-      <section className="py-6 bg-zinc-900">
+      <section className="py-6 bg-zinc-900 min-h-screen">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x justify-center items-center">
-          <div className="py-6 md:py-0 md:px-6 text-white">
+          <div className="py-6 md:py-0 md:px-6 text-white ">
             <h1 className="text-4xl font-bold text-center">Find Me On</h1>
             <p className="pt-2 pb-4 text-center">
               Fill in the form to start a conversation
@@ -94,12 +93,11 @@ const Contact = () => {
       <footer className="footer footer-center bg-gray-700 text-white p-4">
         <aside>
           <p>
-            Copyright © ${new Date().getFullYear()} - All rights reserved by Fatema Tuz Johora
+            Copyright © ${new Date().getFullYear()} - All rights reserved by
+            Fatema Tuz Johora
           </p>
         </aside>
       </footer>
-
-
     </div>
   );
 };

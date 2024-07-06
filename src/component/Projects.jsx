@@ -2,8 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div>
-            project
+        <div className='min-h-screen bg-zinc-900'>
         </div>
     );
 };
