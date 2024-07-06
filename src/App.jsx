@@ -78,7 +78,7 @@ function App() {
     <div className="min-h-screen flex flex-col">
       <div className="flex flex-1">
         <div className="w-1/5 min-h-screen  bg-blue-500 px-2 py-4 fixed top-0 flex justify-center items-center">
-          <div className="flex flex-col w-[130px] mx-auto">{link}</div>
+          <div className="flex flex-col md:block  w-[130px] mx-auto ">{link}</div>
         </div>
 
         <div className=" ml-[270px] ">
